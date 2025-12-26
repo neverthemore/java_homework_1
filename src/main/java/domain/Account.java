@@ -12,6 +12,7 @@ public abstract class Account {
         this.owner = owner;
     }
 
+
     public String getAccountNumber() {
         return accountNumber;
     }

@@ -3,7 +3,7 @@ package main.java.domain;
 public class CreditAccount extends Account {
     private final double creditLimit;
 
-    public CreditAccount(double initialBalance, String accountNumber, double creditLimit, Customer owner) {
+    public CreditAccount(String accountNumber, Customer owner, double initialBalance, double creditLimit) {
         super(accountNumber, initialBalance, owner);
         this.creditLimit = creditLimit;
     }

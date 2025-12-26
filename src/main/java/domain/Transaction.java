@@ -11,12 +11,12 @@ public class Transaction {
     private final boolean success;
     private final String message;
 
-    public Transaction(TransactionType type,  double amount, String fromAccountNumber, String toAccountNumber, LocalDateTime timeStamp, boolean success, String message) {
+    public Transaction(TransactionType type,  double amount, String fromAccountNumber, String toAccountNumber, boolean success, String message) {
         this.type = type;
         this.amount = amount;
         this.fromAccountNumber = fromAccountNumber;
         this.toAccountNumber = toAccountNumber;
-        this.timeStamp = timeStamp;
+        this.timeStamp = LocalDateTime.now();
         this.success = success;
         this.message = message;
     }
