@@ -21,6 +21,7 @@ public class Transaction {
         this.message = message;
     }
 
+
     public TransactionType getType() {return type;}
     public double getAmount() {return amount;}
     public String getFromAccountNumber() {return fromAccountNumber;}
@@ -39,3 +40,5 @@ public class Transaction {
                 message);
     }
 }
+
+
