@@ -5,8 +5,11 @@ public class DebitAccount extends Account{
         super(accountNumber, initialBalance, owner);
     }
 
+
     @Override
     public String getAccountType() {
         return"Дебетовый";
     }
 }
+
+

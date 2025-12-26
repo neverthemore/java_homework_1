@@ -81,3 +81,5 @@ public class ReportService {
         System.out.println("  Всего: " + transactions.size());
     }
 }
+
+

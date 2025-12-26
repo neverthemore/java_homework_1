@@ -19,4 +19,8 @@ public class Customer{
     public String toString(){
         return String.format("Клиент ID: %d, ФИО: %s]", id, fullName);
     }
+
 }
+
+
+
